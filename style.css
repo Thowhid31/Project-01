@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.prb{
+    color: green;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 400px;
+}
+.details-button{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px 40px;
+    border: none;
+    background-image: linear-gradient(45deg, green, red, green);
+}
+.details-button:hover{
+    background-image: linear-gradient(45deg, red, green, red);
+    cursor: pointer;
+}
+
+.second-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.dhaka{
+    text-align: center;
+    margin-top: 50px;
+    width: 250px;
+    border: 7px solid cyan;
+    box-shadow: 4px 4px 10px cyan;
+    border-radius: 5px;
+}
+.div-img img{
+    width: 100%;
+}
+.all-divition{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.deail{
+    background-color: red;
+    padding: 5px 20px;
+    border: none;
+
+}
+.deail:hover{
+    background-color: white;
+    color: red;
+}
